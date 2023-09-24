@@ -1,0 +1,54 @@
+.body {background-color:rgb(196, 222, 244);}
+.accordion {font-family: Verdana, Geneva, Tahoma, sans-serif; padding: auto;}
+.accordion-body {font-size:large; background-color:rgb(241, 241, 241) }
+.perfil img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 1000px;
+    margin-top: 30px;
+margin-bottom: 30px;}
+.header{margin-top: 30px; margin-left: 500px; margin-right: 500px;}
+.container {text-align: center;background-color: rgb(255, 255, 255);}
+.body{background-color:rgb(242, 244, 245);}
+.containersocialbuttons {background-color: white;}
+.section {background-color: white;}
+.accordion-item {
+    margin-bottom: 20px;
+  }
+  
+  
+  #collapseOne {
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+
+  #collapseTwo {
+    background-color: lightgreen;
+    padding: 10px;
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+
+    #collapseOne {
+      background-color: lightcoral;
+    }
+  
+
+    #collapseTwo {
+      background-color: lightpink;
+    }
+  }
+  
+
+  @media screen and (max-width: 576px) {
+
+    #collapseOne, #collapseTwo {
+      background-color: lightgray;
+      padding: 20px;
+    }
+  }
+  .body {background-color: blue;}
+  
